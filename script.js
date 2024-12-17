@@ -1,7 +1,7 @@
 // This function called ageInDays reference to the click button
 function ageInDays(params) {
    const age = prompt("What year were you born?");
-   // const birthYear = (2022 - age) * 365;
+    const birthYear = (2022 - age) * 365;
 
     // This block of code reference to the out-put i.e your age in days
     const h1 = document.createElement("h2");  //Creates an h1 element inside the div>result tag.
